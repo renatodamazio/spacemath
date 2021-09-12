@@ -47,3 +47,14 @@ export const SpaceCraftWrapperCargo = styled.section`
     z-index: 2;
     text-align: center;
 `
+
+export const SpaceCraftFightDockWrapper = styled.section`
+    position: absolute;
+    top: 0;
+    height: 40px;
+    width: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9;
+
+`

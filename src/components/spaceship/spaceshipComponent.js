@@ -4,12 +4,14 @@ import {
     SpaceCraftAdapter, 
     SpaceCraftWrapperEngine,
     SpaceCraftWrapperWings,
-    SpaceCraftWrapperCargo
+    SpaceCraftWrapperCargo,
+    SpaceCraftFightDockWrapper
 } from './spaceshipStyles';
 
 import WingsComponent from './spaceshipmodules/wingsComponent';
 import EngineComponent from './spaceshipmodules/engineCompnent';
 import CargoComponent from './spaceshipmodules/cargoComponent';
+import FightDockComponent from './spaceshipmodules/fightDockComponent';
 export default function index() {
     return (
         <SpacecraftWrapper>
@@ -21,6 +23,11 @@ export default function index() {
             </SpaceCraftAdapter>
 
             <SpaceCraftWrapperCargo>
+
+                <SpaceCraftFightDockWrapper>
+                    <FightDockComponent />
+                </SpaceCraftFightDockWrapper>
+
                 <CargoComponent/>
             </SpaceCraftWrapperCargo>
 

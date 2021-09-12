@@ -14,9 +14,9 @@ export const Cargo = styled.div`
         content: "";
         border: ${size/2}px solid transparent;
         display: red;
-        border-bottom-color: red;
+        border-bottom-color: rebeccapurple;
         position: absolute;
-        top: -${size + 6}px;
+        top: -${size + 7}px;
         left: 50%;
         width: 7px;
         height: 6px;
